@@ -11,6 +11,8 @@ def click():
         print(cnt)
 
     else:
+        cnt += 1
+        print(cnt)
         btn1["text"] = "終わり"
         print(clock())
         dialog(cnt,clock())
