@@ -3,6 +3,7 @@ from tkinter import messagebox
 from time import clock
 
 cnt = 0
+
 def click():
     global cnt
     if (clock() <= 3.0):
